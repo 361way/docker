@@ -11,6 +11,6 @@
 #
 [repositoryid]
 name=Some name for this repository
-baseurl=http://10.212.149.204/centos7.3/
+baseurl=http://192.168.149.204/centos7.3/
 gpgcheck=0
 enabled=1

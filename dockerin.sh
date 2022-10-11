@@ -22,7 +22,7 @@ installdocker ()
 	notes=`python -c "print '*'*70"`
 	echo -e "$notes\n\tGet docker imager and install,please wait moment!\n$notes"
 	cd /home/cmreadwh
-	wget http://10.212.149.204/docker.tar.gz -q
+	wget http://192.168.149.204/docker.tar.gz -q
 	tar zxf docker.tar.gz
 	cp -r docker-repo-13.1 /tmp
 	cd /etc/yum.repos.d/ && rm -rf *.repo && cp /tmp/docker-repo-13.1/docker1.13.1.repo .
